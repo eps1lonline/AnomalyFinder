@@ -212,7 +212,7 @@ def create_window():
         # people = 4.5 km/h
         speed = float(coef_speed_text.get("1.0", END))
 
-        # car_1 = 3.3462711120278352
+        # car = 3.3462711120278352
         # people = 0.2723344582573448
         coef = float(coef_coef_text.get("1.0", END))
 

@@ -19,7 +19,7 @@ def all_operations(progrBar_progressBar, window, anom_rBut_sel_value, coef_anom,
     all_dist, all_time, speed_obj = video_processing(dir, progrBar_progressBar, window, video_path, h_line_pts, coef)
 
     # 3
-    create_time_series(all_dist, all_time, dir, speed_obj, coef)
+    create_time_series(all_dist, all_time, dir, speed_obj)
     
     # 4
     draw_graphic(speed_obj, anom_rBut_sel_value, coef_anom, dir)

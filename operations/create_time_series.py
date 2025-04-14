@@ -1,7 +1,7 @@
 import math
 import os
 
-def create_time_series(all_dist, all_time, dir, speed_obj, coef):
+def create_time_series(all_dist, all_time, dir, speed_obj):
     """Создаёт временной ряд"""
 
     # Запись временного ряда в файл
@@ -24,7 +24,7 @@ def create_time_series(all_dist, all_time, dir, speed_obj, coef):
                 t = all_time[i][j] - all_time[i][0]
 
                 # Скорость
-                u = speed_obj.spd[i] * coef
+                u = speed_obj.spd[i]
 
                 # Вывод
                 x, y = all_dist[i][j]

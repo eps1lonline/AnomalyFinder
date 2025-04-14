@@ -18,7 +18,7 @@ def create_window():
     video_path_label.place(x=20, y=20)
 
     video_path_entry = Entry(window, width=50)
-    video_path_entry.insert(END, "C:/Users/nikit/Desktop/Diplom/data_set/car_1.mp4")
+    video_path_entry.insert(END, "C:/Users/nikit/Desktop/Git Uploads/AnomalyFinder/data_set/car_1.mp4")
     video_path_entry.place(x=20, y=50)
     
     def video_path_but_funct():
@@ -36,7 +36,7 @@ def create_window():
     output_path_label.place(x=20, y=80)
 
     output_path_entry = Entry(window, width=50)
-    output_path_entry.insert(END, "C:/Users/nikit/Desktop/Diplom")
+    output_path_entry.insert(END, "C:/Users/nikit/Desktop")
     output_path_entry.place(x=20, y=110)
 
     def output_path_but_funct():
